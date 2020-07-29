@@ -55,14 +55,19 @@
 									<p>I'm a passionate developer but more importantly I'm passionate about technology.</p>
 								</header>
 								<h3>Online Alışveriş Sitesi</h3>
-								<a href="#" class="image main"><img src="images/ozet.png" alt="" /></a>
+								<a href="#" class="image main"><img src="images/cicdd.jpg" alt="" /></a>
 								<p>
-									Bu projede ASP.NET kullanarak bir elektronik alışveriş sitesi tasarladım sitede Admin,Müşteri rolleri farklı özelliklere sahiptir
-									Master page kullanarak imageslider,validation,navigation menüsü sepete ekleme ürün arama ,sipariş verme Admin kullanıcısıyla veritabanında
-									verilen siparişi güncelleme ayrıca sipariş sonrası bilgileri PDF olarak indirmeyi öğrendim.
+									Bu projede git üzerindeki örnek bir proje ile 2 adet aws ec2 sanal serveri kullanarak(master-slave) linux üzerinde tomcat containerini yükledim , jenkins üzerinden source code management ile git personel access tokens kullandım git üzerinden webhook ekledim ,ssh key ile master üzerinden slave makineye ulaştım, jenkins arayüzünde slave'in ip adresini ve master'in key'ini slave'i kontrol için kullandım(böylece yeni bir node oluşturdum), jenkins üzerinden source code manager ile pipeline script'i (git ile) entegre ettim,pipeline syntax kullanarak proje icinde kullandıgım script'i elde ettim,
+									linux'a Apache maven yükledim jenkins ile entegre ettim , test komutu kullanarak proje kodunu jenkins ile test ettim .
+									linuxta Docker Hub ile pipeline scriptini elde ettim :8080 portunu kullanarak .docker exec Container ID ile kaynak kodu
+									projeyi yayınladım.
 								</p>
 								<ul class="actions special">
-									<li><a href="https://github.com/meteatbs/ASP.NET_SHOPPING" target="_blank" class="button large">Check it out</a></li>
+										<li><a href="http://35.158.121.103:8080/addressbook" target="_blank" class="button">Live Demo</a></li>
+										
+									</ul>
+								<ul class="actions special">
+									<li><a href="https://github.com/meteatbas/ci_cd_integration" target="_blank" class="button large">Check it out</a></li>
 								</ul>
 							</article>
 
